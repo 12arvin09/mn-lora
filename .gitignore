@@ -1,0 +1,45 @@
+# Virtual environments (11.2 GB)
+.venv/
+.venv311/
+venv/
+env/
+
+# Audio data (10.5 GB)
+audio/
+
+# Model checkpoints / weights (1.2 GB)
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+
+# Dataset folder
+datasfle/
+
+# Other notebooks - intentionally not published.
+# BenchmarkFleursMnLoRA_FIXEDv2.ipynb contains a hardcoded HF token.
+BenchmarkFleursBayartsogt.ipynb
+BenchmarkFleursGemma4Adapter.ipynb
+BenchmarkFleursMnLoRA_FIXED.ipynb
+BenchmarkFleursMnLoRA_FIXEDv2.ipynb
+missing_paths.txt
+
+# Training outputs and logs
+outputs/
+tb-logs/
+runs/
+wandb/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
